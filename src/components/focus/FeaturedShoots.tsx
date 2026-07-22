@@ -1,112 +1,111 @@
-import shootGala from "@/assets/shoot-gala.jpg";
-import shootConference from "@/assets/shoot-conference.jpg";
-import shootRunway from "@/assets/shoot-runway.jpg";
-import shootFestival from "@/assets/shoot-festival.jpg";
+import fest from "@/assets/campus-fest.jpg";
+import conv from "@/assets/campus-convocation.jpg";
+import hack from "@/assets/campus-hackathon.jpg";
+import sports from "@/assets/campus-sports.jpg";
+import tedx from "@/assets/campus-tedx.jpg";
+import theatre from "@/assets/campus-theatre.jpg";
 import { ArrowUpRight } from "lucide-react";
 
-const shoots = [
-  {
-    n: "01",
-    title: "A Room Full of Candlelight",
-    client: "The Metropolitan Trust — Annual Gala",
-    tag: "Gala",
-    img: shootGala,
-    span: "md:col-span-7 md:row-span-2",
-    ratio: "aspect-[4/5]",
-  },
-  {
-    n: "02",
-    title: "One Silhouette, One Spotlight",
-    client: "House of Marceau — SS26 Runway",
-    tag: "Fashion",
-    img: shootRunway,
-    span: "md:col-span-5",
-    ratio: "aspect-[4/5]",
-  },
-  {
-    n: "03",
-    title: "Ten Thousand Hands, One Sunset",
-    client: "Lumen Fest — Main Stage",
-    tag: "Festival",
-    img: shootFestival,
-    span: "md:col-span-5",
-    ratio: "aspect-[16/10]",
-  },
+const feature = {
+  n: "01",
+  tag: "Cultural Fest",
+  title: "Three nights under a thousand lights.",
+  campus: "St. Xavier's University — Utsav '26",
+  img: fest,
+  quote: "Every single band, every single fit, every single first-year on the lawn.",
+};
+
+const grid = [
+  { n: "02", tag: "Convocation", title: "Cap in the air, four years on the ground.", campus: "Ashoka U — Class of '26", img: conv, tint: "bg-highlight" },
+  { n: "03", tag: "Hackathon", title: "48 hours, one keyboard, two coffees.", campus: "IIT — HackNight", img: hack, tint: "bg-navy text-paper" },
+  { n: "04", tag: "Sports", title: "The student section became the game.", campus: "Inter-Uni Finals '26", img: sports, tint: "bg-stamp text-paper" },
+  { n: "05", tag: "TEDx", title: "A red circle, one small idea, a full house.", campus: "TEDxCampus", img: tedx, tint: "bg-paper border-2 border-ink" },
+  { n: "06", tag: "Theatre", title: "Backstage is where the play actually starts.", campus: "Dramsoc — Winter Prod.", img: theatre, tint: "bg-highlight" },
 ];
 
 const FeaturedShoots = () => {
   return (
-    <section id="featured" className="relative py-28 md:py-40 bg-background">
+    <section id="featured" className="relative py-24 md:py-32 bg-paper border-b-2 border-ink">
       <div className="container mx-auto px-6">
+        {/* Chapter header */}
         <div className="flex items-end justify-between mb-14 gap-6 flex-wrap">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <span className="rule-gold" />
-              <span className="eyebrow">Featured shoots</span>
+              <span className="rule-ink" />
+              <span className="eyebrow">Chapter 01 · Featured shoots</span>
             </div>
             <h2 className="heading-display text-5xl md:text-7xl max-w-3xl">
-              A quiet look at the loudest rooms of the season.
+              The rooms your campus{" "}
+              <span className="hand text-stamp text-6xl md:text-8xl italic">won't stop talking about.</span>
             </h2>
           </div>
-          <a href="#albums" className="text-gold uppercase tracking-[0.22em] text-[11px] link-underline inline-flex items-center gap-2">
+          <a href="#albums" className="text-ink uppercase tracking-[0.22em] text-[11px] font-semibold link-underline inline-flex items-center gap-2">
             Full index <ArrowUpRight className="w-4 h-4" />
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
-          {/* Big feature */}
-          <article className="md:col-span-7 group cursor-pointer">
-            <div className="relative overflow-hidden">
-              <img
-                src={shoots[0].img}
-                alt={shoots[0].title}
-                loading="lazy"
-                width={1200}
-                height={1500}
-                className="w-full aspect-[4/5] object-cover transition-transform duration-[1.2s] group-hover:scale-[1.03]"
-              />
-              <span className="absolute top-4 left-4 bg-background/80 backdrop-blur px-3 py-1 text-[10px] uppercase tracking-[0.22em] text-gold">
-                {shoots[0].tag}
-              </span>
-            </div>
-            <div className="pt-5 flex items-start justify-between gap-4">
-              <div>
-                <div className="eyebrow mb-2">N° {shoots[0].n}</div>
-                <h3 className="font-serif text-3xl md:text-4xl leading-tight">{shoots[0].title}</h3>
-                <p className="text-sm text-muted-foreground mt-2">{shoots[0].client}</p>
-              </div>
-              <ArrowUpRight className="w-5 h-5 text-gold shrink-0 mt-1 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
-            </div>
-          </article>
-
-          {/* Right column with two stacked */}
-          <div className="md:col-span-5 flex flex-col gap-6">
-            {[shoots[1], shoots[2]].map((s) => (
-              <article key={s.n} className="group cursor-pointer">
-                <div className="relative overflow-hidden">
-                  <img
-                    src={s.img}
-                    alt={s.title}
-                    loading="lazy"
-                    width={1200}
-                    height={1000}
-                    className={`w-full ${s.ratio} object-cover transition-transform duration-[1.2s] group-hover:scale-[1.03]`}
-                  />
-                  <span className="absolute top-4 left-4 bg-background/80 backdrop-blur px-3 py-1 text-[10px] uppercase tracking-[0.22em] text-gold">
-                    {s.tag}
-                  </span>
-                </div>
-                <div className="pt-4 flex items-start justify-between gap-4">
-                  <div>
-                    <div className="eyebrow mb-1">N° {s.n}</div>
-                    <h3 className="font-serif text-2xl leading-tight">{s.title}</h3>
-                    <p className="text-xs text-muted-foreground mt-1">{s.client}</p>
-                  </div>
-                  <ArrowUpRight className="w-4 h-4 text-gold shrink-0 mt-1 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </article>
-            ))}
+        {/* Big feature spread */}
+        <article className="grid md:grid-cols-12 gap-6 mb-8 border-y-2 border-ink py-8">
+          <div className="md:col-span-7 relative">
+            <span className="tape -top-3 left-8 rotate-3 z-10" />
+            <img
+              src={feature.img}
+              alt={feature.title}
+              loading="lazy"
+              width={1920}
+              height={1280}
+              className="w-full aspect-[4/3] object-cover"
+            />
           </div>
+          <div className="md:col-span-5 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="font-serif text-4xl text-stamp">{feature.n}</span>
+                <span className="eyebrow bg-ink text-paper px-2 py-1">{feature.tag}</span>
+              </div>
+              <h3 className="heading-display text-4xl md:text-5xl mb-4">{feature.title}</h3>
+              <p className="text-ink/70 mb-6">{feature.campus}</p>
+              <blockquote className="hand text-2xl text-navy leading-snug border-l-4 border-highlight pl-4">
+                "{feature.quote}"
+              </blockquote>
+            </div>
+            <a href="#" className="mt-8 inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] font-semibold text-ink group">
+              Open the spread <ArrowUpRight className="w-4 h-4 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
+            </a>
+          </div>
+        </article>
+
+        {/* Zine grid */}
+        <div className="grid md:grid-cols-6 gap-4">
+          {grid.map((s, i) => (
+            <article
+              key={s.n}
+              className={`group cursor-pointer ${
+                i === 0 ? "md:col-span-3 md:row-span-2" : i === 1 ? "md:col-span-3" : "md:col-span-2"
+              }`}
+            >
+              <div className="relative overflow-hidden border-2 border-ink">
+                <img
+                  src={s.img}
+                  alt={s.title}
+                  loading="lazy"
+                  width={1200}
+                  height={i === 0 ? 1500 : 900}
+                  className={`w-full ${i === 0 ? "aspect-[4/5]" : "aspect-[4/3]"} object-cover transition-transform duration-[1.2s] group-hover:scale-[1.04]`}
+                />
+                <span className={`absolute top-3 left-3 px-2 py-1 text-[10px] uppercase tracking-[0.22em] font-bold ${s.tint}`}>
+                  {s.tag}
+                </span>
+              </div>
+              <div className="pt-4 flex items-start gap-3">
+                <span className="font-serif text-2xl text-stamp shrink-0">{s.n}</span>
+                <div>
+                  <h3 className="font-serif text-xl md:text-2xl leading-tight">{s.title}</h3>
+                  <p className="text-xs text-ink/60 mt-1">{s.campus}</p>
+                </div>
+              </div>
+            </article>
+          ))}
         </div>
       </div>
     </section>
