@@ -4,13 +4,14 @@ const Footer = () => {
   return (
     <footer className="bg-ink text-paper pt-20 pb-8">
       <div className="container mx-auto px-6">
-        {/* Big signoff */}
-        <div className="border-b border-paper/20 pb-14 mb-10">
-          <p className="heading-display text-5xl md:text-8xl leading-[0.95] max-w-5xl">
+        {/* Signoff */}
+        <div className="border-b border-paper/20 pb-12 mb-10">
+          <p className="heading-display text-4xl md:text-6xl leading-tight max-w-3xl">
             Your campus deserves a{" "}
-            <span className="hand text-highlight text-6xl md:text-9xl italic">real photo album.</span>
+            <span className="text-highlight">real photo album.</span>
           </p>
         </div>
+
 
         <div className="grid md:grid-cols-12 gap-10 mb-14">
           <div className="md:col-span-5">
