@@ -75,7 +75,7 @@ const Footer = () => {
             </a>
             <a href="#" className="hover:text-highlight">Privacy</a>
             <a href="#" className="hover:text-highlight">Licensing</a>
-            <span className="hand text-lg text-highlight">Made on a campus, for campuses.</span>
+            
           </div>
         </div>
       </div>
