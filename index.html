@@ -3,16 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Focus — Event Photography Studio</title>
-    <meta name="description" content="Focus is a boutique event photography studio documenting galas, keynotes, runways and festivals — edited like a magazine." />
-    <meta name="author" content="Focus Studio" />
+    <title>Focus — Campus Event Photography Studio</title>
+    <meta name="description" content="Focus documents university events — cultural fests, convocations, hackathons, sports weeks and theatre nights — as hand-edited campus albums." />
+    <meta name="author" content="Focus Campus Studio" />
+    <link rel="canonical" href="https://focuscampus.lovable.app/" />
 
-    <meta property="og:title" content="Focus — Event Photography Studio" />
-    <meta property="og:description" content="Boutique event photography: galas, keynotes, runways and festivals, edited like a magazine." />
+    <meta property="og:title" content="Focus — Campus Event Photography Studio" />
+    <meta property="og:description" content="Campus event photography: fests, convocations, hackathons and theatre nights, edited like a zine." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://focuscampus.lovable.app/" />
 
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Focus — Campus Event Photography Studio" />
+    <meta name="twitter:description" content="Campus event photography: fests, convocations, hackathons and theatre nights, edited like a zine." />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://focuscampus.lovable.app/#website",
+            "url": "https://focuscampus.lovable.app/",
+            "name": "Focus",
+            "description": "Campus and university event photography, delivered as hand-edited albums."
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://focuscampus.lovable.app/#organization",
+            "name": "Focus",
+            "alternateName": "Focus Campus Studio",
+            "url": "https://focuscampus.lovable.app/",
+            "description": "A student-run photography studio documenting university life across 84 campuses.",
+            "email": "hello@focus.campus",
+            "telephone": "+91 98765 04212",
+            "sameAs": ["https://instagram.com/focus.campus"]
+          },
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://focuscampus.lovable.app/#localbusiness",
+            "name": "Focus Campus Studio",
+            "url": "https://focuscampus.lovable.app/",
+            "image": "https://focuscampus.lovable.app/favicon.ico",
+            "email": "hello@focus.campus",
+            "telephone": "+91 98765 04212",
+            "priceRange": "₹₹",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Karol Bagh",
+              "addressLocality": "New Delhi",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": "Blog",
+            "@id": "https://focuscampus.lovable.app/#journal",
+            "name": "The Journal",
+            "url": "https://focuscampus.lovable.app/#journal",
+            "publisher": { "@id": "https://focuscampus.lovable.app/#organization" },
+            "blogPost": [
+              {
+                "@type": "Article",
+                "headline": "How to shoot a fest with two shooters and one venue map.",
+                "datePublished": "2026-09-12",
+                "image": "https://focuscampus.lovable.app/sitemap.xml",
+                "author": { "@id": "https://focuscampus.lovable.app/#organization" }
+              },
+              {
+                "@type": "Article",
+                "headline": "The five shots every convocation deck actually needs.",
+                "datePublished": "2026-08-28",
+                "author": { "@id": "https://focuscampus.lovable.app/#organization" }
+              },
+              {
+                "@type": "Article",
+                "headline": "Lighting a black-box theatre without ruining the mood.",
+                "datePublished": "2026-08-04",
+                "author": { "@id": "https://focuscampus.lovable.app/#organization" }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
+
 
   <body>
     <div id="root"></div>
