@@ -43,8 +43,8 @@ const Footer = () => {
             <div className="eyebrow text-highlight mb-4">Studio</div>
             <ul className="space-y-2 text-paper/80 text-sm">
               <li>hello@focus.campus</li>
-              <li>+91 98765 04212</li>
-              <li>Karol Bagh, New Delhi</li>
+              <li>+91 XXXXX XXXXX</li>
+              <li>New Delhi, India</li>
             </ul>
           </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
                 placeholder="you@campus.edu"
                 className="flex-1 bg-transparent px-3 py-2.5 text-sm text-paper placeholder:text-paper/50 focus:outline-none"
               />
-              <button className="bg-highlight text-ink px-4 text-[11px] uppercase tracking-[0.22em] font-bold">
+              <button type="submit" className="bg-highlight text-ink px-4 text-[11px] uppercase tracking-[0.22em] font-bold">
                 Join
               </button>
             </form>

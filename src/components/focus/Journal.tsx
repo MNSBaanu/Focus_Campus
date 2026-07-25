@@ -66,7 +66,7 @@ const Journal = () => {
                   loading="lazy"
                   width={1200}
                   height={900}
-                  className="w-full aspect-[4/3] object-cover transition-transform duration-[1.2s] group-hover:scale-[1.04]"
+                  className="w-full aspect-[4/3] object-cover transition-transform duration-1200 group-hover:scale-[1.04]"
                 />
               </div>
               <h3 className="font-serif text-2xl md:text-3xl leading-tight mb-2 group-hover:text-stamp transition-colors">

@@ -9,8 +9,6 @@ const Booking = () => {
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const data = Object.fromEntries(new FormData(e.currentTarget));
-    console.log("Booking enquiry:", { ...data, type });
     toast.success("Enquiry received — we'll be in touch within 24 hours.");
     (e.currentTarget as HTMLFormElement).reset();
   };

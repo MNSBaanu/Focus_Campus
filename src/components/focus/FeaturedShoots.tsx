@@ -91,7 +91,7 @@ const FeaturedShoots = () => {
                   loading="lazy"
                   width={1200}
                   height={i === 0 ? 1500 : 900}
-                  className={`w-full ${i === 0 ? "aspect-[4/5]" : "aspect-[4/3]"} object-cover transition-transform duration-[1.2s] group-hover:scale-[1.04]`}
+                  className={`w-full ${i === 0 ? "aspect-[4/5]" : "aspect-[4/3]"} object-cover transition-transform duration-1200 group-hover:scale-[1.04]`}
                 />
                 <span className={`absolute top-3 left-3 px-2 py-1 text-[10px] uppercase tracking-[0.22em] font-bold ${s.tint}`}>
                   {s.tag}
