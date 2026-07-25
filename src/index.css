@@ -117,8 +117,12 @@
   }
   .hand {
     font-family: var(--font-hand);
-    font-weight: 600;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 0.72em;
+    letter-spacing: 0.01em;
   }
+
   .eyebrow {
     font-family: var(--font-sans);
     font-weight: 600;
