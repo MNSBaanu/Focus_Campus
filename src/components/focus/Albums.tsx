@@ -7,12 +7,12 @@ import tedx from "@/assets/campus-tedx.jpg";
 import theatre from "@/assets/campus-theatre.jpg";
 
 const albums = [
-  { n: "A-041", title: "Utsav '26 — Cultural Fest",     campus: "St. Xavier's University", term: "Spring", frames: 431, img: fest,    kind: "Fest" },
-  { n: "A-040", title: "Class of '26 Convocation",       campus: "Ashoka University",       term: "Spring", frames: 214, img: conv,    kind: "Ceremony" },
-  { n: "A-039", title: "HackNight 48",                   campus: "IIT Delhi",               term: "Winter", frames: 168, img: hack,    kind: "Hackathon" },
-  { n: "A-038", title: "Inter-Uni Basketball Finals",    campus: "NCR Sports League",       term: "Fall",   frames: 289, img: sports,  kind: "Sports" },
-  { n: "A-037", title: "TEDxCampus '26 — Small Ideas",   campus: "Christ University",       term: "Fall",   frames: 92,  img: tedx,    kind: "Talks" },
-  { n: "A-036", title: "Dramsoc Winter Production",      campus: "Delhi University",        term: "Winter", frames: 137, img: theatre, kind: "Theatre" },
+  { n: "A-041", title: "Utsav '26 — Cultural Fest",     campus: "University of Colombo",      term: "Spring", frames: 431, img: fest,    kind: "Fest" },
+  { n: "A-040", title: "Class of '26 Convocation",       campus: "University of Peradeniya",   term: "Spring", frames: 214, img: conv,    kind: "Ceremony" },
+  { n: "A-039", title: "HackNight 48",                   campus: "University of Moratuwa",     term: "Winter", frames: 168, img: hack,    kind: "Hackathon" },
+  { n: "A-038", title: "Inter-Uni Basketball Finals",    campus: "Sri Lanka Uni Sports League", term: "Fall",   frames: 289, img: sports,  kind: "Sports" },
+  { n: "A-037", title: "TEDxCampus '26 — Small Ideas",   campus: "University of Kelaniya",     term: "Fall",   frames: 92,  img: tedx,    kind: "Talks" },
+  { n: "A-036", title: "Dramsoc Winter Production",      campus: "University of Ruhuna",       term: "Winter", frames: 137, img: theatre, kind: "Theatre" },
 ];
 
 const filters = ["All", "Fest", "Ceremony", "Hackathon", "Sports", "Talks", "Theatre"];

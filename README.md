@@ -1,6 +1,6 @@
 # Focus — Campus Event Photography
 
-A photography portfolio and booking site for Focus, an event photography studio covering university and campus events across India.
+A photography portfolio and booking site for Focus, an event photography studio covering university and campus events across Sri Lanka.
 
 ## Project info
 

@@ -10,15 +10,15 @@ const feature = {
   n: "01",
   tag: "Cultural Fest",
   title: "Three nights under a thousand lights.",
-  campus: "St. Xavier's University — Utsav '26",
+  campus: "University of Colombo — Utsav '26",
   img: fest,
   quote: "Every single band, every single fit, every single first-year on the lawn.",
 };
 
 const grid = [
-  { n: "02", tag: "Convocation", title: "Cap in the air, four years on the ground.", campus: "Ashoka U — Class of '26", img: conv, tint: "bg-highlight" },
-  { n: "03", tag: "Hackathon", title: "48 hours, one keyboard, two coffees.", campus: "IIT — HackNight", img: hack, tint: "bg-navy text-paper" },
-  { n: "04", tag: "Sports", title: "The student section became the game.", campus: "Inter-Uni Finals '26", img: sports, tint: "bg-stamp text-paper" },
+  { n: "02", tag: "Convocation", title: "Cap in the air, four years on the ground.", campus: "Peradeniya — Class of '26", img: conv, tint: "bg-highlight" },
+  { n: "03", tag: "Hackathon", title: "48 hours, one keyboard, two coffees.", campus: "Moratuwa — HackNight", img: hack, tint: "bg-navy text-paper" },
+  { n: "04", tag: "Sports", title: "The student section became the game.", campus: "Sri Lankan Uni Finals '26", img: sports, tint: "bg-stamp text-paper" },
   { n: "05", tag: "TEDx", title: "A red circle, one small idea, a full house.", campus: "TEDxCampus", img: tedx, tint: "bg-paper border-2 border-ink" },
   { n: "06", tag: "Theatre", title: "Backstage is where the play actually starts.", campus: "Dramsoc — Winter Prod.", img: theatre, tint: "bg-highlight" },
 ];

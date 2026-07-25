@@ -7,21 +7,21 @@ const stories = [
     quote: "The gallery landed Monday 9am. Our club's Instagram had never grown that fast.",
     name: "Ananya Iyer",
     role: "President, Cultural Council",
-    campus: "St. Xavier's University",
+    campus: "University of Colombo",
     img: fest,
   },
   {
     quote: "They photographed our convocation like it was a documentary. My mum cried twice.",
     name: "Rohan Mehta",
     role: "Class of 2026",
-    campus: "Ashoka University",
+    campus: "University of Peradeniya",
     img: conv,
   },
   {
     quote: "Focus makes student events look like the real deal — not another WhatsApp forward.",
     name: "Dr. Priya Raman",
     role: "Faculty Advisor, TEDxCampus",
-    campus: "Christ University",
+    campus: "University of Kelaniya",
     img: tedx,
   },
 ];
@@ -81,7 +81,7 @@ const Yearbook = () => {
         <div className="mt-20 border-y border-paper/20 py-6">
           <div className="flex items-center justify-between flex-wrap gap-6 text-paper/70 text-sm uppercase tracking-[0.22em] font-semibold">
             <span className="text-highlight">Trusted at</span>
-            {["IIT Delhi", "Ashoka", "Christ", "St. Xavier's", "DU", "BITS Pilani", "NLS Bangalore"].map((c) => (
+            {["UoC", "Peradeniya", "Moratuwa", "J'pura", "Sabaragamuwa", "Kelaniya", "Ruhuna"].map((c) => (
               <span key={c}>{c}</span>
             ))}
           </div>

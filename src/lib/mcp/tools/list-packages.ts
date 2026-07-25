@@ -5,7 +5,7 @@ const packages = [
     id: "club-night",
     tier: "I",
     title: "Club Night",
-    price_inr: 12000,
+    price_lkr: 45000,
     unit: "up to 4 hours",
     tagline: "Perfect for a single event, one venue.",
     includes: [
@@ -19,7 +19,7 @@ const packages = [
     id: "fest-weekend",
     tier: "II",
     title: "Fest Weekend",
-    price_inr: 42000,
+    price_lkr: 155000,
     unit: "3 days · multi-venue",
     tagline: "Cultural fests, sports weeks, orientation.",
     includes: [
@@ -35,7 +35,7 @@ const packages = [
     id: "yearbook",
     tier: "III",
     title: "The Yearbook",
-    price_inr: 120000,
+    price_lkr: 450000,
     unit: "full academic year",
     tagline: "Coverage across every major event, term-long.",
     includes: [
@@ -52,7 +52,7 @@ export default defineTool({
   name: "list_packages",
   title: "List photography packages",
   description:
-    "Returns Focus × Campus photography packages, including tier, price in INR, coverage unit, and what's included.",
+    "Returns Focus × Campus photography packages, including tier, price in LKR, coverage unit, and what's included.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => ({

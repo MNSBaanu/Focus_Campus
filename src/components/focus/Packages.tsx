@@ -4,7 +4,7 @@ const packages = [
   {
     n: "I",
     title: "Club Night",
-    price: "₹ 12,000",
+    price: "Rs. 45,000",
     unit: "up to 4 hours",
     tagline: "Perfect for a single event, one venue.",
     includes: [
@@ -18,7 +18,7 @@ const packages = [
   {
     n: "II",
     title: "Fest Weekend",
-    price: "₹ 42,000",
+    price: "Rs. 155,000",
     unit: "3 days · multi-venue",
     tagline: "Cultural fests, sports weeks, orientation.",
     includes: [
@@ -33,7 +33,7 @@ const packages = [
   {
     n: "III",
     title: "The Yearbook",
-    price: "₹ 1,20,000",
+    price: "Rs. 450,000",
     unit: "full academic year",
     tagline: "Coverage across every major event, term-long.",
     includes: [

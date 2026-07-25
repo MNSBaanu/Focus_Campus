@@ -3,8 +3,8 @@ import { defineTool } from "@lovable.dev/mcp-js";
 const info = {
   name: "Focus",
   tagline: "Event photography for universities and campuses.",
-  based_in: "India",
-  travels: "Pan-India, with additional travel quoted on request.",
+  based_in: "Sri Lanka",
+  travels: "Island-wide, with additional travel quoted on request.",
   contact: {
     email: "hello@focus.studio",
     instagram: "@focus.campus",
