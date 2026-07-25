@@ -22,16 +22,7 @@ const Navigation = () => {
 
   return (
     <>
-      {/* Top masthead ribbon */}
-      <div className="bg-ink text-paper text-[11px] uppercase tracking-[0.22em] py-2">
-        <div className="container mx-auto px-6 flex items-center justify-between">
-          <span>Vol. 07 · Fall Semester '26</span>
-          <span className="hidden md:inline">The campus events yearbook, in pictures.</span>
-          <a href="#booking" className="text-highlight hover:underline">
-            Book your fest →
-          </a>
-        </div>
-      </div>
+
 
       <motion.nav
         initial={{ y: -40 }}
