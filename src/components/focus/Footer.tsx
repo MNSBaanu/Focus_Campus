@@ -44,8 +44,8 @@ const Footer = () => {
             <div className="eyebrow text-highlight mb-4">Studio</div>
             <ul className="space-y-2 text-paper/80 text-sm">
               <li>hello@focus.campus</li>
-              <li>+91 XXXXX XXXXX</li>
-              <li>New Delhi, India</li>
+              <li>+94 77 123 4567</li>
+              <li>Colombo, Sri Lanka</li>
             </ul>
           </div>
 
