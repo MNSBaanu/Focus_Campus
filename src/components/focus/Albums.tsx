@@ -57,6 +57,7 @@ const Albums = () => {
             <a
               key={a.n}
               href="#"
+              aria-label={`View album: ${a.title} — ${a.campus}`}
               className={`group block ${i % 2 === 0 ? "md:mt-0" : "md:mt-10"}`}
             >
               <div className="relative bg-card p-3 pb-4 border-2 border-ink shadow-[6px_6px_0_0_hsl(var(--ink))] group-hover:shadow-[10px_10px_0_0_hsl(var(--stamp))] group-hover:-translate-x-1 group-hover:-translate-y-1 transition-all">

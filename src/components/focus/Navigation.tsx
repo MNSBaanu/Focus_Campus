@@ -42,7 +42,7 @@ const Navigation = () => {
         }`}
       >
         <div className="container mx-auto px-6 flex items-center justify-between">
-          <a href="#" className="flex items-center gap-2 group">
+          <a href="#" aria-label="Focus — home" className="flex items-center gap-2 group">
             <span className="w-8 h-8 rounded-full bg-ink text-paper grid place-items-center">
               <Camera className="w-4 h-4" />
             </span>
