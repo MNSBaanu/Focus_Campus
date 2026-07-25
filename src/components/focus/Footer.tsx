@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pt-6 border-t border-paper/20 text-xs text-paper/60">
           <span>© {new Date().getFullYear()} Focus Campus Studio · All frames reserved.</span>
           <div className="flex items-center gap-6">
-            <a href="#" className="hover:text-highlight inline-flex items-center gap-2">
+            <a href="#" aria-label="Visit Focus on Instagram" className="hover:text-highlight inline-flex items-center gap-2">
               <Instagram className="w-4 h-4" /> @focus.campus
             </a>
             <a href="#" className="hover:text-highlight">Privacy</a>

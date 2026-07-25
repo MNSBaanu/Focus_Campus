@@ -1,0 +1,19 @@
+# Focus — Campus Event Photography
+
+> Focus is a student-run photography studio documenting university and campus events across India — cultural fests, convocations, hackathons, sports weeks, TEDx talks and theatre nights — delivered as hand-edited, numbered albums.
+
+Every event becomes a numbered album, hand-edited and sequenced, delivered to the organising club as a private gallery. Packages range from a single club night to full-academic-year yearbook coverage.
+
+## Pages
+
+- [Home](/): Overview of the studio, featured shoots, albums, packages and booking.
+- [Featured shoots](/#featured): Recent campus shoots — fests, convocations, hackathons, sports, TEDx, theatre.
+- [Albums](/#albums): The archive of numbered albums, kept by semester.
+- [Yearbook](/#yearbook): What student organisers say about working with Focus.
+- [Packages](/#packages): Pricing tiers — Club Night, Fest Weekend and The Yearbook.
+- [Journal](/#journal): Field notes and playbooks for campus clubs shooting their own events.
+- [Booking](/#booking): Reserve coverage for a campus event.
+
+## Optional
+
+- Contact: hello@focus.campus · +91 98765 04212 · Karol Bagh, New Delhi
