@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# Focus — Campus Event Photography
+
+A photography portfolio and booking site for Focus, an event photography studio covering university and campus events across India.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+- **Stack**: Vite + React + TypeScript + Tailwind CSS + shadcn/ui
+- **Backend**: Lovable Cloud (Supabase)
+- **MCP server**: `supabase/functions/mcp` exposes public read-only tools for packages, event types, featured shoots, and studio info
 
-## How can I edit this code?
+## Local development
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Requirements: Node.js + npm (recommended via [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repo
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app expects a `.env` file at the project root with your Supabase/Lovable Cloud credentials. This file is intentionally ignored from Git.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available scripts
 
-**Use GitHub Codespaces**
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Start the Vite dev server with HMR |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+| `npm run test` | Run the Vitest test suite |
+| `npm run test:watch` | Run tests in watch mode |
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Editing the project
 
-## What technologies are used for this project?
+You can edit this project in three ways:
 
-This project is built with:
+1. **Lovable** — open the project in Lovable and prompt to make changes.
+2. **Local IDE** — clone the repo, make changes, and push them back.
+3. **GitHub** — edit files directly in the GitHub UI or via GitHub Codespaces.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deploy
 
-## How can I deploy this project?
+Open the project in Lovable and click **Share → Publish** to deploy the latest version.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Custom domain
 
-## Can I connect a custom domain to my Lovable project?
+You can connect a custom domain from **Project → Settings → Domains**. Read the [custom domain docs](https://docs.lovable.dev/features/custom-domain#custom-domain) for details.
 
-Yes, you can!
+## Security notes
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Never commit `.env` or other secrets to Git. The `.gitignore` already excludes them.
+- Supabase credentials are handled by the Lovable Cloud integration. The publishable key is safe to ship in the frontend bundle; Row-Level Security protects the data.
