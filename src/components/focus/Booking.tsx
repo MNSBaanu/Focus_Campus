@@ -41,7 +41,7 @@ const Booking = () => {
                 className="w-full aspect-[4/5] object-cover border-2 border-ink shadow-[8px_8px_0_0_hsl(var(--ink))]"
               />
               <p className="hand text-xl text-ink text-center mt-3">
-                Ashoka U · May '26 · Roll 03
+                UoC · May '26 · Roll 03
               </p>
             </div>
           </div>
