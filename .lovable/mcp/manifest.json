@@ -15,7 +15,7 @@
       {
         "name": "list_packages",
         "title": "List photography packages",
-        "description": "Returns Focus × Campus photography packages, including tier, price in INR, coverage unit, and what's included.",
+        "description": "Returns Focus × Campus photography packages, including tier, price in LKR, coverage unit, and what's included.",
         "annotations": {
           "readOnlyHint": true,
           "idempotentHint": true,

@@ -4,7 +4,7 @@ const shoots = [
   {
     id: "spandan-24",
     title: "Spandan '24",
-    campus: "IIT Bombay",
+    campus: "University of Colombo",
     event_type: "cultural-fest",
     frames: 812,
     highlights: ["Main stage headliner", "3-day fest", "Reel-ready dumps"],
@@ -12,7 +12,7 @@ const shoots = [
   {
     id: "convocation-25",
     title: "Convocation 2025",
-    campus: "Delhi University",
+    campus: "University of Peradeniya",
     event_type: "convocation",
     frames: 430,
     highlights: ["Chief guest address", "Robed portraits", "Family moments"],
@@ -20,7 +20,7 @@ const shoots = [
   {
     id: "hack-the-north",
     title: "Hack The North",
-    campus: "BITS Pilani",
+    campus: "University of Moratuwa",
     event_type: "hackathon",
     frames: 604,
     highlights: ["36-hour build", "Sponsor deliverables", "Final pitches"],
@@ -28,7 +28,7 @@ const shoots = [
   {
     id: "theatre-night-vii",
     title: "Theatre Night VII",
-    campus: "St. Stephen's College",
+    campus: "University of Sri Jayewardenepura",
     event_type: "theatre-night",
     frames: 275,
     highlights: ["Dress rehearsal", "Full show", "Backstage documentary"],
